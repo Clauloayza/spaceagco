@@ -91,42 +91,42 @@ ul.nav.navbar-nav.navbar-right{
     padding-bottom: 0;
 }
 
-.dashboard{
+/* .dashboard{
     background-image: url('https://firebasestorage.googleapis.com/v0/b/contactweb-5f74e.appspot.com/o/digital.gif?alt=media&token=774d7dab-1fc0-495a-9b9c-67f5ec35ceaf');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-}
-.imgTermica{
+} */
+/* .imgTermica{
     background-image: url('https://firebasestorage.googleapis.com/v0/b/contactweb-5f74e.appspot.com/o/termica-gif.gif?alt=media&token=4916b055-e82b-4358-b3b3-5b3a67a8b724');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-}
+} */
 .data{
     background-image: url('../Img/Solutions/laptop.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
 }
-.imgModelo{
+/* .imgModelo{
     background-image: url('https://firebasestorage.googleapis.com/v0/b/contactweb-5f74e.appspot.com/o/model.gif?alt=media&token=bda1ead6-9608-4760-9511-4a20036e04d6');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-}
+} */
 .counter{
     background-image: url('../Img/Solutions/conteo.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
 }
-.sensores{
+/* .sensores{
     background-image: url('https://firebasestorage.googleapis.com/v0/b/contactweb-5f74e.appspot.com/o/sensores.jpg?alt=media&token=f7330614-37db-4adf-aa4d-086269ddaba4');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-}
+} */
 
 /*sections*/
 .section-nav{
