@@ -3,8 +3,6 @@ import {Grid, Button, Image} from 'react-bootstrap';
 import '../Css/main.css';
 import * as ReactTranslated from 'react-translated';
 import translation from '../Translation';
-import peru from '../Img/peru.png';
-import eeuu from '../Img/eeuu.jpg';
 
 export const Header = ({title, subtitle, switchLanguage, language}) => {
     return (
