@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'redux-zero/react';
-import './Archives/css/bootstrap.min.css';
+//import './Archives/css/bootstrap.min.css';
 import './App.css';
 import {Navigator} from './Components/Nav';
 import {Header} from './Components/Header';
