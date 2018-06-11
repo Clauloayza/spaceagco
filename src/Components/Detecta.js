@@ -13,7 +13,7 @@ export const Detecta = ({title, subtitle, description}) => {
             <Col md={6} sm={6} xs={12} lg={6} className="imgTermica">
            </Col>
            <Col md={6} sm={6} xs={12} lg={6} className="contenedor">
-                <div className="contenido">
+                <div className="contenido right">
                     <h2 className="">
                         <ReactTranslated.Translate
                             text="{solution2}"

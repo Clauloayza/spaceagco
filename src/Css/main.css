@@ -34,13 +34,26 @@ img.logo-spaceag.navbar-brand{
 .navbar-brand {
     float: left;
     height: auto; 
-    margin-top: -14px;
+    margin-top: -4px;
 }
 .navbar-inverse{
     position: absolute;
     background-color: transparent;
     border-color: transparent;
     top: 2%;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #036920;
+    padding-left: 50px;
+    font-weight: 500;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #69af22;
+
+}
+.navbar-inverse .navbar-nav>li>a:active{
+    color: #69af22;
+    font-weight: bold;
 }
 .navbar-fixed-bottom .navbar-fixed-top{
     position: absolute;
@@ -56,6 +69,7 @@ img.logo-spaceag.navbar-brand{
 }
 ul.nav.navbar-nav.navbar-right{
     margin-right: -124px;
+    margin-top: 1%;
 }
 /*header*/
 .header{
@@ -174,6 +188,9 @@ div.contenido{
     display: table-cell;
     vertical-align: middle;
 }
+div.right{
+    text-align: right;
+}
 .col-md-6 {
     padding: 0 10%;
 }
@@ -236,7 +253,7 @@ ul.media{
 }
 .media li{
     display: inline;
-    padding: 0 20px;
+    padding: 0 0;
 }
 .media li img{
     width: 10%;
@@ -347,8 +364,8 @@ a.blog{
     width: 30%;
     display: block;
     margin: auto;
-    margin-top: 100px;
-    padding:3px 0 15px 0;
+    margin-top: 70px;
+    padding:28px 15px 69px 15px;
     letter-spacing: 2px;
 }
   /*footer*/
@@ -373,6 +390,7 @@ a.blog{
     text-align: center;
     display: block;
     margin: auto;
+    margin-top: 16%;
 }
 
 /* BTN SWITCH LANGUAGE */
