@@ -137,10 +137,11 @@ ul.nav.navbar-nav.navbar-right{
     height: 400px;
 }
  .sensores{
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/contact-21562.appspot.com/o/sensores.jpg?alt=media&token=3151c335-ed27-4a22-91f1-0cf4f85f9e17');
+    background-image: url('../Img/tractor.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    background-position: center;
 }
 
 /*sections*/
