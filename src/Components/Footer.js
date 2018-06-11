@@ -1,7 +1,7 @@
 import React from 'react';
 import {Col, Row, Image} from 'react-bootstrap';
 import '../Css/main.css';
-import spaceagfooter from '../Img/spaceag.png'
+import spaceagfooter from '../Img/logoWhite.png'
 
 export const Footer = () => {
     return(
