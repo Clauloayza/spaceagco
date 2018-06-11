@@ -107,13 +107,13 @@ ul.nav.navbar-nav.navbar-right{
 }
 
 .dashboard{
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/contact-21562.appspot.com/o/digital.gif?alt=media&token=49e2488d-801b-4b05-b1cf-6d2767d78d6d');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/proyecto-b6696.appspot.com/o/dashboard-gif.gif?alt=media&token=fab7ec92-a8aa-47a5-8d16-af5ce49a2492');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
 }
 .imgTermica{
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/contactweb-5f74e.appspot.com/o/termica-gif.gif?alt=media&token=4916b055-e82b-4358-b3b3-5b3a67a8b724');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/proyecto-b6696.appspot.com/o/termica-gif.gif?alt=media&token=6378eb97-c782-4179-9861-0264a1fef461');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -126,7 +126,7 @@ ul.nav.navbar-nav.navbar-right{
     background-position-x: -47px;
 }
  .imgModelo{
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/contact-21562.appspot.com/o/model.gif?alt=media&token=33260bd1-ec68-4245-bd6f-204288cf7dcb');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/proyecto-b6696.appspot.com/o/model.gif?alt=media&token=d9a5a13d-1dcc-478b-acd4-fd591e2ae5e7');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -393,7 +393,7 @@ background: linear-gradient(to bottom, #036920, rgba(0, 0, 0, 0.801));
     text-align: center;
 }
 .redes i{
-    font-size: 20px;
+    font-size: 23px;
 }
 .redes a i{
     color: #e6e6e6;

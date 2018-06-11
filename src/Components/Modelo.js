@@ -8,9 +8,9 @@ export const Modelo = ({title, subtitle, description}) => {
     return (
         <Grid fluid>
         <Row id="about" className="solutions">
-            <Col md={6} sm={6} xs={12} lg={5} className="imgModelo">
+            <Col md={6} sm={6} xs={12} lg={6} className="imgModelo">
            </Col>
-           <Col md={6} sm={6} xs={12} lg={7} className="contenedor">
+           <Col md={6} sm={6} xs={12} lg={6} className="contenedor">
                 <div className="contenido right">
                     <h2 className="">
                         <ReactTranslated.Translate
