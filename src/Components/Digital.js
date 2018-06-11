@@ -19,7 +19,7 @@ export const Digital = ({title1, title, subtitle, description}) => {
             
             </Row>
             <Row  id="" className="solutions">
-                <Col md={6} sm={6} xs={12} lg={6} className="contenedor">
+                <Col md={6} sm={6} xs={12} lg={7} className="contenedor">
                     <div className="contenido">
                         <h2 className="">
                             <ReactTranslated.Translate
@@ -43,7 +43,7 @@ export const Digital = ({title1, title, subtitle, description}) => {
                         </div>
                     </div>
                 </Col>
-                <Col md={6} sm={6} xs={12} lg={6} className="dashboard">
+                <Col md={6} sm={6} xs={12} lg={5} className="dashboard">
                 
                 </Col>
             </Row>

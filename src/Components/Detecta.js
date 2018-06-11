@@ -10,9 +10,9 @@ export const Detecta = ({title, subtitle, description}) => {
         
         <Grid fluid>
         <Row id="about" className="solutions">
-            <Col md={6} sm={6} xs={12} lg={6} className="imgTermica">
+            <Col md={6} sm={6} xs={12} lg={5} className="imgTermica">
            </Col>
-           <Col md={6} sm={6} xs={12} lg={6} className="contenedor">
+           <Col md={6} sm={6} xs={12} lg={7} className="contenedor">
                 <div className="contenido right">
                     <h2 className="">
                         <ReactTranslated.Translate

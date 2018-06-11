@@ -121,8 +121,9 @@ ul.nav.navbar-nav.navbar-right{
 .data{
     background-image: url('../Img/Solutions/laptop.png');
     background-repeat: no-repeat;
-    background-size: cover;
     height: 400px;
+    background-position: left;
+    background-position-x: -47px;
 }
  .imgModelo{
     background-image: url('https://firebasestorage.googleapis.com/v0/b/contact-21562.appspot.com/o/model.gif?alt=media&token=33260bd1-ec68-4245-bd6f-204288cf7dcb');
@@ -164,18 +165,17 @@ h1.contact{
 h2{
     font-family:'Helvetica Medium';
     color: #036920;
-    font-weight: 600;
     font-size: 3.1rem;
 }
 h3{
     font-family: "Helvetica Medium";
     color: #69af22;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
 }
 p.textAbout{
-    font-family: "Helvetica Medium"; 
+    font-family: "Helvetica"; 
     color: #7c7c7e;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 div.solutions.row{
     background: #EDEEF0;
@@ -486,6 +486,9 @@ h3.language{
         width: 69%;
         padding: 3px 42px 21px 42px;
     }
+    .redes{
+
+    }
 }
 @media only screen and (min-width: 320px) and (max-width: 568px){
     img.logo-spaceag.navbar-brand{
@@ -542,6 +545,11 @@ h3.language{
     .blog-container{
         width: 69%;
         padding: 3px 42px 21px 42px;
+    }
+}
+@media only screen and (min-width: 411px) and (max-width: 731px){
+    .blog-container{
+        margin-top: 118px;
     }
 }
 @media only screen and (min-width: 414px) and (max-width: 736px){
