@@ -49,7 +49,7 @@ export const Customers = ({title2}) => {
                             <Image className="customers_elemento" src={hojaRedonda} alt="hojaRedonda"/>
                         </li>
                         <li>
-                            <Image className="customers_elemento" src={agricola} alt="Agricola Cerro Prieto" className="acp"/>
+                            <Image className="customers_elemento acp" src={agricola} alt="Agricola Cerro Prieto" />
                         </li>
                     </ul>
                 </Col>
