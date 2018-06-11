@@ -1,6 +1,7 @@
 import React from 'react';
-import {Col, Row} from 'react-bootstrap';
+import {Col, Row, Image} from 'react-bootstrap';
 import '../Css/main.css';
+import spaceagfooter from '../Img/spaceag.png'
 
 export const Footer = () => {
     return(
@@ -20,6 +21,7 @@ export const Footer = () => {
                 <Col xs={3} lg={3} sm={3} md={3}>
                 <a href="https://www.youtube.com/channel/UCmqxVoDpsYbqgBngJGw_2gA"><i className="fa fa-youtube"></i></a>
                 </Col>  
+                <Image className="spaceagfooter" src={spaceagfooter} alt="Spaceag" />
                 <span>www.spaceag.co</span>
             </Col>
             <Col lg={5} sm={5} md={4}>

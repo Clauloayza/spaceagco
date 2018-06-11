@@ -336,7 +336,7 @@ textarea.form-control{
 }
 /*Blog*/
 h3.blog{
-    color: #036920;
+    color: #e6e6e6;
     font-size: 32px;
     letter-spacing: 3px;
     text-align: center;
@@ -346,13 +346,18 @@ h3.blog{
     font-weight: 600;
 }
 div.blog.row{
-    background-image: url('../Img/Header.jpg');
+    height: 350px;
+    background: rgba(0, 0, 0, 0.377);
+}
+#blog{
+    
+    background-image: url('../Img/uva.jpeg');
     height: 350px;
     background-attachment: fixed;
     background-position: center;
 }
 a.blog{
-    color: #717171;
+    color: #e6e6e6;
     text-decoration: underline;
     text-align: center;
     display: block;
@@ -369,10 +374,19 @@ a.blog{
   /*footer*/
 .footer {
     background-color: #036920;
-    height: 100px;
+    height: 250px;
     color: #ffffff;
     font-family: "Helvetica Medium"; 
     margin-bottom: 0 !important;
+    background: -prefix-linear-gradient(top, #036920, rgba(0, 0, 0, 0.801)); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, #036920, rgba(0, 0, 0, 0.801));
+}
+.spaceagfooter{
+    width: 50%;
+    margin-top: 35%;
+    margin-bottom: -20px;
 }
 .redes{
     margin-top: 35px;

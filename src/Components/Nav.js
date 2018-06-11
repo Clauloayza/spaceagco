@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavItem, } from 'react-bootstrap';
 import '../Css/main.css';
-import spaceag from '../Img/spaceag.png';
+import spaceag from '../Img/logoWhite.png';
 import * as ReactTranslated from 'react-translated';
 import translation from '../Translation';
 
