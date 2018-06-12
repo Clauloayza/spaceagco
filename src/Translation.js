@@ -219,7 +219,7 @@ export default {
   },
 
   'Idioma': {
-    es: 'Idioma',
-    en: 'Language',
+    es: 'Español',
+    en: 'English',
   }
 }

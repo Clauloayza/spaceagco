@@ -21,6 +21,7 @@ body {
     margin: 0;
     padding: 0;
     margin-top: -16px;
+    font-family: 'Helvetica Medium';
 }
 /*navigator*/
 .logo-spaceag{
@@ -120,8 +121,9 @@ ul.nav.navbar-nav.navbar-right{
 .data{
     background-image: url('../Img/Solutions/laptop.png');
     background-repeat: no-repeat;
-    background-size: cover;
     height: 400px;
+    background-position: left;
+    background-position-x: -47px;
 }
  .imgModelo{
     background-image: url('../Img/gif/model.gif');
@@ -140,6 +142,7 @@ ul.nav.navbar-nav.navbar-right{
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
+    background-position: center;
 }
 
 /*sections*/
@@ -160,22 +163,19 @@ h1.contact{
     font-size: 4rem;
 }
 h2{
-    font-family: Anke;
+    font-family:'Helvetica Medium';
     color: #036920;
-    font-weight: 600;
-    letter-spacing: 1px;
     font-size: 3.1rem;
 }
 h3{
     font-family: "Helvetica Medium";
     color: #69af22;
-    font-size: 2.2rem;
-    letter-spacing: 2px;
+    font-size: 1.8rem;
 }
 p.textAbout{
-    font-family: "Helvetica Medium"; 
+    font-family: "Helvetica"; 
     color: #7c7c7e;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 }
 div.solutions.row{
     background: #EDEEF0;
@@ -211,7 +211,7 @@ div.right{
 }
 span.digitos{
     font-size: 41px;
-    font-family: Anke;
+    font-family: 'Helveetica Medium';
     color: #fff;
     font-weight: bold;
 }
@@ -263,7 +263,6 @@ ul.media{
 }
 img.noticeSpace{
     vertical-align: inherit;
-    border-radius: 15px;
     margin-bottom: 15px;
     cursor: zoom-in;
 }
@@ -337,7 +336,7 @@ textarea.form-control{
 }
 /*Blog*/
 h3.blog{
-    color: #036920;
+    color: #e6e6e6;
     font-size: 32px;
     letter-spacing: 3px;
     text-align: center;
@@ -347,41 +346,54 @@ h3.blog{
     font-weight: 600;
 }
 div.blog.row{
+    height: 350px;
+    background: rgba(0, 0, 0, 0.377);
+}
+#blog{
+    
     background-image: url('../Img/Header.jpg');
     height: 350px;
     background-attachment: fixed;
     background-position: center;
 }
 a.blog{
-    color: #717171;
+    color: #e6e6e6;
     text-decoration: underline;
     text-align: center;
     display: block;
     font-size: 16px;
 }
 .blog-container{
-    background: #e6e6e6;
     width: 30%;
     display: block;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 65px;
     padding:28px 15px 69px 15px;
     letter-spacing: 2px;
 }
   /*footer*/
 .footer {
     background-color: #036920;
-    height: 100px;
+    height: 250px;
     color: #ffffff;
     font-family: "Helvetica Medium"; 
     margin-bottom: 0 !important;
+    background: -prefix-linear-gradient(top, #036920, rgba(0, 0, 0, 0.801)); 
+
+/* La nueva sintaxis necesaria para navegadores apegados al estandar (IE 10 y Firefox 10 en adelante), sin prefijo */
+background: linear-gradient(to bottom, #036920, rgba(0, 0, 0, 0.801));
+}
+.spaceagfooter{
+    width: 50%;
+    margin-top: 35%;
+    margin-bottom: -20px;
 }
 .redes{
     margin-top: 35px;
     text-align: center;
 }
 .redes i{
-    font-size: 20px;
+    font-size: 23px;
 }
 .redes a i{
     color: #e6e6e6;
@@ -425,6 +437,8 @@ h3.language{
     color: #e6e6e6;
     padding: 5px 0;
     font-size: 12px;
+    display: none;
+
 }
 /*imagenes efecto*/
 .customers li:hover img {-webkit-transform:scale(1.3);transform:scale(1.3);filter: grayscale(80%);transition:all .5s ease-in-out;}
@@ -436,13 +450,15 @@ h3.language{
     }
     ul.nav.navbar-nav.navbar-right{
         margin-right: 0;
-        background: #e6e6e69d;
+        background: #fff;
+        margin-top: 2%;
     }
     .navbar-inverse{
         width: 100%;
     }
     .spaceag{
         font-size: 4.3rem;
+        width: 100%;
     }
     .subtitle{
         font-size: 25px;
@@ -467,6 +483,8 @@ h3.language{
     }
     .data{
         height: 251px;
+        background-size: cover;
+        background-position: center;
     }
     .sensores{
         height: 196px;
@@ -478,26 +496,41 @@ h3.language{
         width: 21%;
     }
     .media li img{
-        width: 32%;
+        width: 38%;
     }
     .blog-container{
         width: 69%;
         padding: 3px 42px 21px 42px;
     }
+    .redes span{
+        margin-top: 11%;
+    }
+    .customers img.acp{
+        width: 18%;
+    }
 }
 @media only screen and (min-width: 320px) and (max-width: 568px){
+    .header{
+        display: block;
+    }
+    button.btn.btn-default{
+        position: absolute;
+        top: 88%;
+        right: 13px;
+    }
     img.logo-spaceag.navbar-brand{
         margin-left: 37px;
     }
     ul.nav.navbar-nav.navbar-right{
         margin-right: 0;
-        background: #e6e6e69d;
+        background: #fff;
     }
     .navbar-inverse{
         width: 100%;
     }
     .spaceag{
         font-size: 4rem;
+        width: 100%;
     }
     .subtitle{
         font-size: 23px;
@@ -527,20 +560,55 @@ h3.language{
         height: 196px;
     }
     .counter{
-        height: 296px;;
+        height: 296px;
+        background-size: contain;
+    }
+    .dashboard{
+        background-size: contain;
+    }
+    .imgTermica{
+        background-size: contain;
+    }
+    .imgModelo{
+        background-size: contain;
     }
     .customers img{
-        width: 25%;
+        width: 29%;
     }
     .media li img{
-        width: 25%;
+        width: 33%;
         margin-left: -20px;
     }
     .blog-container{
         width: 69%;
         padding: 3px 42px 21px 42px;
     }
+    .redes span{
+        margin-top: 11%;
+    }
+    div.data{
+        background-size: contain;
+        background-position-x: 0;
+    }
 }
+@media only screen and (min-width: 411px) and (max-width: 731px){
+    .blog-container{
+        margin-top: 118px;
+    }
+    .sensores{
+        height: 226px;
+}
+    .media li img{
+        width: 33%;
+    }
+    .customers img{
+        width: 29%;
+    }
+    .spaceag{
+        width: 100%;
+    }
+    }
+    
 @media only screen and (min-width: 414px) and (max-width: 736px){
     div.contenido{
         text-align: left;
@@ -549,8 +617,9 @@ h3.language{
 @media only screen and (min-width: 768px) and (max-width: 1024px){
     ul.nav.navbar-nav.navbar-right{
         margin-right: -32px;
-        background: #e6e6e68c;
+        background: #fff;
         border-radius: 10px 0 0 10px;
+        margin-top: 76px;
     }
     div.contenido{
         text-align: center;
@@ -560,11 +629,10 @@ h3.language{
         height: 400px;
     }
     .sensores{
-        top: 60px;
+        top: 17px;
         height: 400px;
     }
     .counter{
-        top: 30px;
         height: 400px;;
     }
     .redes{
@@ -573,5 +641,4 @@ h3.language{
     }
 
 }
-
 
