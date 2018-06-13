@@ -25,7 +25,7 @@ export default {
   //SPACEAG
   '{title}': {
     es: '{title}',
-    en: 'HARVEST THE DATA OF YOUR CROPS',
+    en: 'HARVEST YOUR CROPS DATA',
   },
   '{subtitle}': {
     es: '{subtitle}',

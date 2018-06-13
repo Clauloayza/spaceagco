@@ -14,7 +14,8 @@ export const Counter = ({counter1, counter2, counter3, counter4}) => {
               <div className="container boxCounter">
                 <div className="row">
                   <div className="col-md-3" >
-                  <CountUp className="digitos" start={0} end={45000} duration={3.75} decimal="," />
+                  <CountUp className="digitos" start={0} end={45} decimals={3}
+    decimal="," duration={3.75} decimal="," />
                     <h3 className="counters">
                       <ReactTranslated.Translate
                         text="{a}"

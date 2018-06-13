@@ -69,12 +69,11 @@ img.logo-spaceag.navbar-brand{
     border-color: transparent;
 }
 ul.nav.navbar-nav.navbar-right{
-    margin-right: -124px;
     margin-top: 1%;
 }
 /*header*/
 .header{
-    background-image: url("../Img/fondo.jpg");
+    background-image: url("../Img/web.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -113,7 +112,7 @@ ul.nav.navbar-nav.navbar-right{
     height: 400px;
 }
 .imgTermica{
-    background-image: url('../Img/Solutions/termica.jpeg');
+    background-image: url('../Img/gif/termica.gif');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -211,7 +210,7 @@ div.right{
 }
 span.digitos{
     font-size: 41px;
-    font-family: 'Helveetica Medium';
+    font-family: 'Helvetica Medium';
     color: #fff;
     font-weight: bold;
 }
@@ -336,7 +335,7 @@ textarea.form-control{
 }
 /*Blog*/
 h3.blog{
-    color: #e6e6e6;
+    color: #036920;
     font-size: 32px;
     letter-spacing: 3px;
     text-align: center;
@@ -347,17 +346,29 @@ h3.blog{
 }
 div.blog.row{
     height: 350px;
-    background: rgba(0, 0, 0, 0.377);
+    background: rgba(0, 0, 0, 0);
+}
+span.angle{
+    color: #fff;
+    position: absolute;
+    font-size: 9rem;
+    top: 52%
+}
+span.fa-angle-right{
+    right: 66%;
+}
+span.fa-angle-left{
+    right: 32%;
 }
 #blog{
-    
     background-image: url('../Img/Header.jpg');
     height: 350px;
     background-attachment: fixed;
-    background-position: center;
+    background-repeat:no-repeat;
+    background-position: top;
 }
 a.blog{
-    color: #e6e6e6;
+    color: #036920;
     text-decoration: underline;
     text-align: center;
     display: block;
@@ -367,9 +378,10 @@ a.blog{
     width: 30%;
     display: block;
     margin: auto;
-    margin-top: 65px;
-    padding:28px 15px 69px 15px;
+    margin-top: 105px;
+    padding:3px 15px 36px 15px;
     letter-spacing: 2px;
+    border:4px solid #fff;
 }
   /*footer*/
 .footer {
@@ -445,8 +457,17 @@ h3.language{
 .customers {overflow:hidden;}
 
 @media only screen and (min-width: 360px) and (max-width: 640px){
+    span.fa-angle-right{
+        display: none;
+    }
+    span.fa-angle-left{
+        display: none;
+    }
+    .blog-container{
+        border: transparent;
+    }
     img.logo-spaceag.navbar-brand{
-        margin-left: 55px;
+        margin-left: 51px;
     }
     ul.nav.navbar-nav.navbar-right{
         margin-right: 0;
@@ -478,16 +499,25 @@ h3.language{
     div.contenido{
         text-align: center;
     }
-    .row, .container-fluid{
-        margin-bottom: 20px;
-    }
+   
     .data{
         height: 251px;
         background-size: cover;
         background-position: center;
     }
+    .dashboard{
+        height: 196px;
+        background-size: cover;
+    }
+    .imgTermica{
+        height: 196px;
+    }
+    .imgModelo{
+        height: 196px;
+    }
     .sensores{
         height: 196px;
+        background-size: contain;
     }
     .counter{
         height: 296px;;
@@ -505,11 +535,33 @@ h3.language{
     .redes span{
         margin-top: 11%;
     }
+    .redes i{
+        font-size: 15px;
+    }
     .customers img.acp{
         width: 18%;
     }
+    .redes{
+        margin-top: 6px;
+    }
+    .spaceagfooter{
+        margin-top: 35%;
+        margin-left: -119px;
+    }
+    .col-xs-3{
+        width: 0;
+    }
 }
 @media only screen and (min-width: 320px) and (max-width: 568px){
+    span.fa-angle-right{
+        display: none;
+    }
+    span.fa-angle-left{
+        display: none;
+    }
+    .blog-container{
+        border: transparent;
+    }
     .header{
         display: block;
     }
@@ -517,9 +569,6 @@ h3.language{
         position: absolute;
         top: 88%;
         right: 13px;
-    }
-    img.logo-spaceag.navbar-brand{
-        margin-left: 37px;
     }
     ul.nav.navbar-nav.navbar-right{
         margin-right: 0;
@@ -550,27 +599,29 @@ h3.language{
     div.contenido{
         text-align: center;
     }
-    .row, .container-fluid{
-        margin-bottom: 20px;
-    }
+    
     .data{
-        height: 251px;
+        height: 189px;
     }
     .sensores{
-        height: 196px;
+        height: 176px;
+        background-size: contain;
     }
     .counter{
         height: 296px;
-        background-size: contain;
+        background-size: cover;
     }
     .dashboard{
-        background-size: contain;
+        background-size: cover;
+        height: 150px;
     }
     .imgTermica{
-        background-size: contain;
+        background-size: cover;
+        height: 179px;
     }
     .imgModelo{
-        background-size: contain;
+        background-size: cover;
+        height: 150px;
     }
     .customers img{
         width: 29%;
@@ -590,6 +641,12 @@ h3.language{
         background-size: contain;
         background-position-x: 0;
     }
+    .redes i{
+        font-size: 15px;
+    }
+    .col-xs-3{
+        width: 0;
+    }
 }
 @media only screen and (min-width: 411px) and (max-width: 731px){
     .blog-container{
@@ -607,19 +664,43 @@ h3.language{
     .spaceag{
         width: 100%;
     }
+}
+@media only screen and (min-width: 412px) and (max-width: 732px){
+    .imgTermica{
+        background-size: cover;
     }
+    img.spaceagfooter{
+        margin-left: -171px;
+    }
+}
     
 @media only screen and (min-width: 414px) and (max-width: 736px){
     div.contenido{
         text-align: left;
     }
+    .redes i{
+        font-size: 22px;
+    }
+    .sensores{
+        height: 229px;
+    }
+    .counter{
+        background-size: cover;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px){
+    span.fa-angle-right{
+        display: none;
+    }
+    span.fa-angle-left{
+        display: none;
+    }
+    .blog-container{
+        border: transparent;
+    }
     ul.nav.navbar-nav.navbar-right{
         margin-right: -32px;
-        background: #fff;
         border-radius: 10px 0 0 10px;
-        margin-top: 76px;
     }
     div.contenido{
         text-align: center;
@@ -627,10 +708,12 @@ h3.language{
     .data{
         top: 60px;
         height: 400px;
+        background-size: contain;
     }
     .sensores{
         top: 17px;
         height: 400px;
+        background-size: contain;
     }
     .counter{
         height: 400px;;
@@ -639,6 +722,50 @@ h3.language{
         margin-left: -293px;
         width: 30%;
     }
+    img.logo-spaceag.navbar-brand{
+        margin-left: -41px;
+        width: 162px !important ;
+    }
+    .customers img{
+        width: 15%;
+    }
 
 }
+@media only screen and (min-width: 375px) and (max-width: 667px){
+    .sensores{
+        height:207px;
+    }
+    .counter{
+        height: 283px;
+    }
+    .imgModelo{
+        background-size: cover;
+        height: 229px;;
+    }
+    .imgTermica{
+        background-size: cover;
+        height: 205px;
+    }
+    .dashboard{
+        background-size: cover;
+        height: 174px;
+    }
+    .spaceagfooter{
+        margin-left:-34%;
+        margin-bottom: -35px;
+        width: 35%;
+    }
+    .col-xs-3{
+        width: 0;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+    .dashboard{
+        height: 423px;
+    }
+    .sensores{
+        background-size: contain;
+    }
+}
+   
 
